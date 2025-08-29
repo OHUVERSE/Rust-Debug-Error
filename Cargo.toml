@@ -1,0 +1,24 @@
+[package]
+name = "debug_error"
+version = "0.1.0"
+edition = "2024"
+license-file = "LICENSE.txt"
+authors = ["Mr. Ohu (OHUVERSE) <ohuverse+DebugError@gmail.com>"]
+description = "Lightweight error handling library, which automatically captures the location (file and line)"
+repository = "https://github.com/OHUVERSE/Rust-Debug-Error"
+readme = "README.md"
+categories = [
+  "development-tools::debugging"
+]
+keywords = [
+  "error-location",
+  "locate-error",
+  "error-handling",
+  "debugging",
+  "macro"
+]
+exclude = ["target/"]
+
+[dependencies]
+log = "0.4"
+env_logger = "0.11"
